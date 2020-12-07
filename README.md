@@ -2,7 +2,7 @@
 
 
 ## Mission 
-To increase my ability to solve technical problems through deliberate
+To increase our ability to solve technical problems through deliberate
 practice. 
 
 
