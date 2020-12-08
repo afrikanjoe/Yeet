@@ -8,14 +8,6 @@ import java.util.*;
 
 public class FindDisappearedNumbers {
 
-    public static void main(String[] Args) {
-
-        System.out.println("Problem: Find disappeared numbers");
-        int[] arrayA = { 4, 3, 2, 7, 8, 2, 3, 1 };
-
-        printList(findDisappeared(arrayA));
-
-    }
 
     public static List<Integer> findDisappeared(int[] nums) {
 
@@ -56,5 +48,15 @@ public class FindDisappearedNumbers {
         System.out.println(Arrays.toString(value.toArray()));
 
     }
+
+    public static void main(String[] Args) {
+
+        System.out.println("Problem: Find disappeared numbers");
+        int[] arrayA = { 4, 3, 2, 7, 8, 2, 3, 1 };
+
+        printList(findDisappeared(arrayA));
+
+    }
+
 
 }

@@ -11,20 +11,6 @@ import java.util.HashMap;
 public class TwoSum {
 
 
-    public static void main ( String[] Args){
-
-        System.out.println("Problem: Two Sum");
-        int[] arrayA = {12, 28, 46, 32, 50};
-
-        
-        print(twoSumBruteForce(arrayA, 82));
-        print(twoSumOnePass(arrayA, 82));
-        print(twoSumTwoPass(arrayA, 82));
-
-    }
-
-
-
     public static int[] twoSumTwoPass(int[] nums, int target) {
             
         HashMap <Integer, Integer> hm = new HashMap<>();
@@ -46,15 +32,7 @@ public class TwoSum {
     }
 
 
-    public static void print(int[] A){
-
-        for(int a: A){
-            System.out.print(a + " ");
-        }
-        System.out.println();
-
-
-    }
+   
 
     public static int[] twoSumOnePass(int[] nums, int target) {
         int [] indices = new int [2];
@@ -94,6 +72,28 @@ public class TwoSum {
         return sum;
             
         
+    }
+
+    public static void main ( String[] Args){
+
+        System.out.println("Problem: Two Sum");
+        int[] arrayA = {12, 28, 46, 32, 50};
+
+        
+        print(twoSumBruteForce(arrayA, 82));
+        print(twoSumOnePass(arrayA, 82));
+        print(twoSumTwoPass(arrayA, 82));
+
+    }
+
+    public static void print(int[] A){
+
+        for(int a: A){
+            System.out.print(a + " ");
+        }
+        System.out.println();
+
+
     }
 
 }
