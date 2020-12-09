@@ -40,12 +40,22 @@ public class ProductExceptSelf{
 
     }
 
+    /*
+
+    1 * 2 * 3 * 4 / 1 = 24 
+    1 * 2 * 3 * 4 / 2 = 12
+    1 * 2 * 3 * 4 / 3 = 8
+    1 * 2 * 3 * 4 / 4 = 6
+
+    */
+
     public static int[] productExceptSelfDivision(int[] nums){
         int mult = 1;
         for(int i = 0; i < nums.length;i++){
             mult *= nums[i];
         }
 
+        
         for(int i = 0; i < nums.length; i++){
 
             nums[i] = mult / nums[i];
@@ -62,16 +72,18 @@ public class ProductExceptSelf{
         result[0] = 1;
 
         int mult = 1;
+
+        //storing left multiply
         for(int i = 1; i < nums.length; i++){
             result[i] = nums[i - 1] * mult;
-            mult = nums[i - 1] * mult;
+            mult = result[i];
         }
 
         mult = 1;
+        //multiply by rightside with the same array.
         for(int i = nums.length - 2; i >= 0; i--){
             result[i] = nums[i + 1] * result[i] * mult;
             mult = nums[i + 1] * mult;
-
         }
 
         return result;
@@ -107,3 +119,10 @@ public class ProductExceptSelf{
 
 
 }
+
+
+
+
+
+
+
