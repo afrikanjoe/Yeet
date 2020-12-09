@@ -334,7 +334,7 @@ practice.
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [x] [Missing Number  ](https://leetcode.com/problems/missing-number/)
 - [ ] [Reverse Bits ](https://leetcode.com/problems/reverse-bits/)
-- [ ] [Single Number](https://leetcode.com/problems/single-number/)
+- [x] [Single Number](https://leetcode.com/problems/single-number/)
 
 
 
