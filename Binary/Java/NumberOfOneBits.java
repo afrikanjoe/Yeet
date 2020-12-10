@@ -20,6 +20,10 @@ n&(n-1)= 000000
 As you can see n & n-1 removed the right most 1 from n. so you can easily check
 if something is a power of 2 by checking if n& n-1 == 0 given a number n.
 
+Note that 0 is incorrectly considered a power of 2 here. To remedy this, use:
+boolean x = n && !(n & (n - 1));
+Source (https://graphics.stanford.edu/~seander/bithacks.html#DetermineIfPowerOf2)
+
 it follows that you could easily count the number of bits in a number
 if you remove the rightmost 1 using n& n-1 and increment a counter everytime you
 do so to figure out the number of bits.
