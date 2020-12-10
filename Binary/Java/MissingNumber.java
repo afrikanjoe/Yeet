@@ -8,7 +8,6 @@ return the number in the range missing from the array
 */
 
 
-import java.util.*;
 
 public class MissingNumber{
 
