@@ -11,7 +11,7 @@ class Solution:
         end  = len(nums)-1
         ret = -1
         while(start<=end):
-            mid = int((start + end)/2)
+            mid = int((start + end)>>1)
             if(nums[mid]==target):
                 return mid
             elif (nums[mid]>target):
