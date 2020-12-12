@@ -270,7 +270,7 @@ practice.
 - [x] [Binary Search](https://leetcode.com/problems/binary-search/)
 - [ ] [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)	
 - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [ ] [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [x] [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
