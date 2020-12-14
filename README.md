@@ -129,7 +129,7 @@ practice.
 - [ ] Group Anagrams	
 - [ ] Intersection of Two Arrays
 - [ ] Unique Email Addresses	
-- [ ] First Unique Character in a String	
+- [x] [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)	
 - [ ] Subarray Sum Equals K	
 	
 ### Graph, BFS, DFS	
