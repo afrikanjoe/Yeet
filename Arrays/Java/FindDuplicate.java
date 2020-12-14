@@ -1,6 +1,6 @@
 /*
 
-https://leetcode.com/problems/find-the-duplicate-number/solution/
+https://leetcode.com/problems/find-the-duplicate-number/
 
 Essentially the same as contains duplicate
 
