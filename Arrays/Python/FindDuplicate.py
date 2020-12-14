@@ -31,6 +31,14 @@ class Solution:
                 break
         return res
 
+    @staticmethod
+    def findDuplicateBest(nums):
+        # if there are duplicates it will get mapped to 
+        # the same index twice
+        for i in nums:
+            if(nums[abs(i)-1]<0):
+                return i 
+            nums[abs(i)-1] = - nums[abs(i)-1]
 
 if __name__=="__main__":
     inp = [1,3,4,2,2]
@@ -38,3 +46,5 @@ if __name__=="__main__":
     print(Solution.prove_duplicate(inp))
     print("Can you solve the problem without modifying the array nums? Yes")
     print(Solution.findDuplicateDict(inp))
+    print("Constant Space O(n)")
+    print(Solution.findDuplicateBest(inp))
