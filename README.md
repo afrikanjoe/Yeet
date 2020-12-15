@@ -13,7 +13,6 @@ practice.
 - [x] [Best Time to Buy and Sell Stock  ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Contains Duplicate  ](https://leetcode.com/problems/contains-duplicate/)
 - [x] [Product of Array Except Self  ](https://leetcode.com/problems/product-of-array-except-self/)
-- [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Maximum Product Subarray  ](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [Find Minimum in Rotated Sorted Array  ](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array  ](https://leetcode.com/problems/search-in-rotated-sorted-array/)
@@ -226,7 +225,7 @@ practice.
 [Discussion tips](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
 
 - [ ] Paint Fence
-- [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] Unique Paths II	
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)	
 - [ ] Best Time to Buy and Sell Stock II	
@@ -242,7 +241,6 @@ practice.
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](  https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths]( https://leetcode.com/problems/unique-paths/)
-- [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 - [ ] [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/)
 - [ ] [Target Sum](https://leetcode.com/problems/target-sum/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
