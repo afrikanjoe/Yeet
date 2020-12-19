@@ -1,3 +1,5 @@
+import java.util.HashSet;
+
 /*
 
 https://leetcode.com/problems/find-the-duplicate-number/

@@ -20,8 +20,7 @@ practice.
 - [ ] [Container With Most Water ](https://leetcode.com/problems/container-with-most-water/)
 - [ ] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [ ] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
-- [ ] [Majority Element](https://leetcode.com/problems/majority-element/)
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
+- [x] [Majority Element](https://leetcode.com/problems/majority-element/)
 - [x] [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [ ] [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
@@ -49,7 +48,7 @@ practice.
 
 ### String
 
-- [ ] [Longest Repeating Character Replacement ]( https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [Minimum Window Substring ](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Valid Anagram  ](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Group Anagrams ](https://leetcode.com/problems/group-anagrams/)
@@ -76,10 +75,8 @@ practice.
 - [ ] [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 - [ ] [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 - [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)Fast & Slow Pointers/Medium
-- [ ] Remove Duplicates from Sorted List
 - [ ] Remove Duplicates from Sorted List II
 - [ ] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [ ] [Merge Two Sorted Lists ](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
@@ -254,7 +251,7 @@ practice.
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)
 - [ ] [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
-- [ ] [ Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
+- [ ] [Partition to K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/)
 - [ ] [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 
