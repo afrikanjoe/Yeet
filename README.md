@@ -276,7 +276,7 @@ practice.
 - [ ] [Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)
 	
 ### Recursion	
-- [ ] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
+- [x] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
 - [ ] K-th Symbol in Grammar	
 - [ ] Split BST	Medium
 	
