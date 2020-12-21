@@ -257,7 +257,7 @@ practice.
 
 	
 ### Binary Search	
-- [ ] [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
+- [x] [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
 - [ ] Search Insert Position	
 - [ ] Find Minimum in Rotated Sorted Array	
 - [ ] Search in Rotated Sorted Array	
