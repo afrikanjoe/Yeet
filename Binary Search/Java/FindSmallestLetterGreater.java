@@ -68,15 +68,7 @@ public class FindSmallestLetterGreater {
 
 
     //O(logN), where N is the length of letters, O(N) space
-    /*
-       we want to find something larger than target in a sorted array. 
-       This is ideal for a binary search: Let's find the rightmost position to insert target into letters so that it remains sorted.
-       At each round, let's maintain the loop invariant that the answer must be in the interval 
-       [lo, hi]. If letters[mi] <= target, 
-       then we must insert it in the interval [mi + 1, hi]. Otherwise, we must insert it in the interval [lo, mi].
-       At the end, if our insertion position says to insert target into the last position letters.length, 
-       we return letters[0] instead. This is what the modulo operation does.
-     */
+    //kinda like peak element implementation 
     public static char nextGreatestLetterBS(char[] letters, char target) {
 
         int lo = 0, hi = letters.length - 1;
