@@ -59,8 +59,6 @@ public class PeakIndexInMountainArray {
             }
         }
         
-        
-        
         return lo;
     }
 
