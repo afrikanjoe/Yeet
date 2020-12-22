@@ -258,8 +258,7 @@ practice.
 	
 ### Binary Search	
 - [x] [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
-- [ ] Search Insert Position	
-- [ ] Find Minimum in Rotated Sorted Array	
+- [x] Search Insert Position	
 - [ ] Search in Rotated Sorted Array	
 - [ ] Capacity To Ship Packages Within D Days
 - [x] [Binary Search](https://leetcode.com/problems/binary-search/)
@@ -280,7 +279,7 @@ practice.
 - [ ] K-th Symbol in Grammar	
 - [ ] Split BST	Medium
 	
-### Sliding Window	[[Leetcode Tips]]
+### Sliding Window
 - [ ] [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [ ] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
 - [ ] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
@@ -292,7 +291,7 @@ practice.
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 	
-### Greedy + Backtracking	[[Leetcode Tips]]
+### Greedy + Backtracking	
 
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - [ ] [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
