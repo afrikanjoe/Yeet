@@ -226,7 +226,6 @@ practice.
 - [ ] Unique Paths II	
 - [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)	
 - [ ] Best Time to Buy and Sell Stock II	
-- [ ] Word Break	
 - [ ] Coin Change	
 - [ ] [Climbing Stairs]( https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](  https://leetcode.com/problems/coin-change/)
@@ -243,7 +242,6 @@ practice.
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [ ] [Word Break](https://leetcode.com/problems/word-break/)
 - [ ] [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
@@ -258,13 +256,12 @@ practice.
 	
 ### Binary Search	
 - [x] [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/)
-- [x] Search Insert Position	
-- [ ] Search in Rotated Sorted Array	
-- [ ] Capacity To Ship Packages Within D Days
+- [x] [Search Insert Position](https://leetcode.com/problems/search-insert-position/)	
 - [x] [Binary Search](https://leetcode.com/problems/binary-search/)
 - [x] [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)	
 - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [x] [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [ ] [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
 - [ ] [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
@@ -292,7 +289,6 @@ practice.
 - [ ] [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)
 	
 ### Greedy + Backtracking	
-
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - [ ] [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
 - [ ] [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
@@ -310,8 +306,6 @@ practice.
 - [ ] [Generalized Abbreviation](https://leetcode.com/problems/generalized-abbreviation/)
 - [ ] [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)
 - [ ] [N-Queens](https://leetcode.com/problems/n-queens/)
-
-
 	
 ### Others	
 - [ ] Move Zeroes	
@@ -320,9 +314,7 @@ practice.
 - [ ] String to Integer (atoi)	
 - [ ] ZigZag Conversion	
 
-
 ### Binary
-
 - [ ] [Sum of Two Integers  ](https://leetcode.com/problems/sum-of-two-integers/)
 - [x] [Number of 1 Bits  ](https://leetcode.com/problems/number-of-1-bits/)
 - [x] [Missing Number  ](https://leetcode.com/problems/missing-number/)
@@ -335,5 +327,4 @@ practice.
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [Word Search](https://leetcode.com/problems/word-search/)
 
