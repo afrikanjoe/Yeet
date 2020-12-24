@@ -38,7 +38,7 @@ practice.
 
 - [ ] [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [ ] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+- [x] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [ ] [Sort List](https://leetcode.com/problems/sort-list/)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
