@@ -326,5 +326,6 @@ practice.
 ### Matrix
 - [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [x] [Rotate Image](https://leetcode.com/problems/rotate-image/)
+- [x] [Flipping an Image](https://leetcode.com/problems/flipping-an-image/)
 
