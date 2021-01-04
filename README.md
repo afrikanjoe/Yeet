@@ -22,9 +22,6 @@ practice.
 - [x] [Majority Element](https://leetcode.com/problems/majority-element/)
 - [x] [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 - [ ] [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/ )
@@ -90,9 +87,7 @@ practice.
 ### Heap, PriorityQueue
 
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] Find K Pairs with Smallest Sums
 - [ ] Kth Largest Element in a Stream
-- [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [ ] [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)Medium
 - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
@@ -247,8 +242,8 @@ practice.
 - [x] [Search Insert Position](https://leetcode.com/problems/search-insert-position/)
 - [x] [Binary Search](https://leetcode.com/problems/binary-search/)
 - [x] [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/)
-- [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [x] [Find Peak Element](https://leetcode.com/problems/find-peak-element/)
+- [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
