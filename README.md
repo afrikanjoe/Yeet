@@ -16,7 +16,6 @@ practice.
 - [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 - [ ] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [ ] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [x] [Majority Element](https://leetcode.com/problems/majority-element/)
@@ -79,11 +78,6 @@ practice.
 - [ ] [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)In-place rev/Medium
 - [ ] [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)In-place reversal of a linked list/Hard
 
-### Stack
-
-- [ ] Valid Parentheses
-- [ ] Reverse Linked List
-
 ### Heap, PriorityQueue
 
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
@@ -130,7 +124,6 @@ practice.
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)Union Find
-- [ ] [Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/)Union Find
 - [ ] [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)Union Find
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)Topological Sort
 - [ ] [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)Topological Sort
@@ -215,7 +208,6 @@ practice.
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 - [ ] Longest Common Subsequence
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
-- [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/))
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 - [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
