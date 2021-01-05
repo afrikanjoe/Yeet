@@ -15,12 +15,24 @@ class Solution:
     @staticmethod
     def totalFruit(tree):
         maxi = 0
-        vals = list(set(tree))
-        for i in vals:
-            val = Solution.collect(tree.index(i),tree)
-            if(len(val)>maxi):
-                maxi = len(val)
+        vals = Solution.getindices(tree)
+        for i in vals.keys():
+            for index in vals[i]:
+                val = Solution.collect(index,tree)
+                if(len(val)>maxi):
+                    maxi = len(val)
         return maxi 
+    @staticmethod
+    def getindices(tree):
+        dicta= {}
+        for i in range(len(tree)):
+            val = dicta.get(tree[i],0)
+            if val ==0:
+                dicta[tree[i]] = [i]
+            else:
+                newls = val+[i]
+                dicta[tree[i]] = newls
+        return dicta
 
     @staticmethod
     def collect(index,tree):
