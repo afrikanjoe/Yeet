@@ -57,14 +57,31 @@ public class FindAllDuplicates {
         return res;
     }
 
+    //alternatively use a hashset and add if the value is already in the set
+    public static List<Integer> findDuplicatesSet(int[] nums) {
+        
+        
+       
+        List<Integer> res = new ArrayList<>();
+        HashSet<Integer> hs = new HashSet<>();
+
+        for(int num: nums){
+            if (hs.add(num) == false) res.add(num);
+        }
+        
+        return res;
+    }
+
     
 
     public static void main(String[] Args) {
 
         System.out.println("Problem: Find All Duplicates");
         int[] arrayA = { 4, 3, 2, 7, 8, 2, 3, 1 };
+        int[] arrayB = { 4, 3, 2, 7, 8, 2, 3, 1 };
 
         printList(findDuplicates(arrayA));
+        printList(findDuplicatesSet(arrayB));
 
     }
 
