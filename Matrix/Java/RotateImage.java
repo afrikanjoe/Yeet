@@ -104,7 +104,6 @@ public class RotateImage {
 
         System.out.println("Problem: Rotate Image");
         int[][] A = {{1,2,3},{4,5,6},{7,8,9}};
-        int[][] B = {{1,1,0},{1,0,1},{0,0,0}};
 
         print (A);
         System.out.println("solution");
