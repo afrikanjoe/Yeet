@@ -30,11 +30,22 @@ public class FindAllDuplicates {
 
 
 
-    //O(N) solution, very similar to find disappeared numbers solution
+    
+     /*
+            constraint is super important since its 1<a[i]<n
+
+            use every value like an index array, and change each value to a negative index if the value is
+            is already negative then add to list
+
+            this is the same concept as finding disappeared numbers 
+
+            O(N)time O(N) space
+        */
 
     public static List<Integer> findDuplicates(int[] nums) {
         
         
+       
         List<Integer> res = new ArrayList<>();
         
         for (int i = 0; i < nums.length; i++){
@@ -50,11 +61,6 @@ public class FindAllDuplicates {
         return res;
     }
 
-
-
-
-
-
     
 
     public static void main(String[] Args) {
@@ -63,14 +69,6 @@ public class FindAllDuplicates {
         int[] arrayA = { 4, 3, 2, 7, 8, 2, 3, 1 };
 
         printList(findDuplicates(arrayA));
-
-    }
-    public static void print(int[] A) {
-
-        for (int a : A) {
-            System.out.print(a + " ");
-        }
-        System.out.println();
 
     }
 

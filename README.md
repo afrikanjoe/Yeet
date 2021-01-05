@@ -20,7 +20,7 @@ practice.
 - [ ] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [x] [Majority Element](https://leetcode.com/problems/majority-element/)
 - [x] [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
-- [ ] [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
+- [x] [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/ )
