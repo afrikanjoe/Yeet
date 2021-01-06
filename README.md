@@ -20,7 +20,7 @@ practice.
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
-- [ ] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+- [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/ )
