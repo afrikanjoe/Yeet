@@ -23,13 +23,13 @@ practice.
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
-- [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/ )
+- [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ### Two Pointers
 
-- [ ] [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+- [x] [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [x] [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
