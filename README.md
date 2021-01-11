@@ -67,7 +67,7 @@ practice.
 - [ ] [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)
 - [ ] [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)Fast & Slow Pointers/Medium
 - [ ] Remove Duplicates from Sorted List II
-- [ ] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [ ] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
