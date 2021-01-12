@@ -41,6 +41,7 @@ public class RemoveDuplicatesFromSorted{
 
     }
 
+    /*
     private class ListNode{
 
         int val;
@@ -54,6 +55,7 @@ public class RemoveDuplicatesFromSorted{
         }
 
     }
+    */
 
 
 

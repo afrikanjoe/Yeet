@@ -18,7 +18,6 @@ practice.
 - [x] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
@@ -199,7 +198,7 @@ practice.
 - [ ] Paint Fence
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] Unique Paths II
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [ ] Best Time to Buy and Sell Stock II
 - [ ] Coin Change
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
