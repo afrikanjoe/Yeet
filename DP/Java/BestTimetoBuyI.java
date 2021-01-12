@@ -22,6 +22,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 Kadanes algorithm O(N)
+local max and global max
 
 */
 
