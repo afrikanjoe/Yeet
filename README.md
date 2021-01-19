@@ -17,12 +17,12 @@ practice.
 - [x] [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/)
 - [x] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
+- [x] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
-- [ ] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
