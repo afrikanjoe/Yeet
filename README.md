@@ -253,7 +253,7 @@ practice.
 
 - [ ] [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [x] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
-- [ ] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- [x] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
