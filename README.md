@@ -251,7 +251,7 @@ practice.
 
 ### Sliding Window
 
-- [ ] [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
+- [x] [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [x] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
 - [x] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
