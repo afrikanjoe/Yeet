@@ -55,6 +55,7 @@ public class FindMininSortedArray {
             return nums[0];
 
         while (lo < hi) {
+            
             int mid = lo + hi >>> 1;
 
             if (nums[mid] > nums[mid + 1]) {
