@@ -67,11 +67,11 @@ public class subarraySum{
     
         for (int num: nums){
 
+
             sum += num;
 
             //prefix sum we want to find nums[0....j]
             int sum_j = sum - k;
-
             // update result if it exists
             if(preSum.containsKey(sum_j)){
                 count += preSum.get(sum_j);
