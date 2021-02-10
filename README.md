@@ -102,7 +102,7 @@ practice.
 ### HashMap
 
 - [x] [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays)
-- [ ] Unique Email Addresses
+- [x] [Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)
 - [x] [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/)
 - [x] [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k)
 
