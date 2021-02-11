@@ -39,8 +39,6 @@ practice.
 
 ### String
 
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
@@ -90,7 +88,7 @@ practice.
 - [ ] [Meeting Rooms II](https://leetcode.com/problems/meeting-rooms-ii/)Intervals
 - [ ] [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [ ] [Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/)
-- [ ] [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)Hard
+- [ ] [Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart)
 - [ ] [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/)Greedy/Heap/Hard
 - [ ] [Maximum Frequency Stack](https://leetcode.com/problems/maximum-frequency-stack/)Bucket Sort
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
