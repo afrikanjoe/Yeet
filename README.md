@@ -20,7 +20,7 @@ practice.
 - [x] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
