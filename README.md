@@ -19,10 +19,8 @@ practice.
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [x] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
-- [ ] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
@@ -73,7 +71,7 @@ practice.
 - [ ] [Rotate List](https://leetcode.com/problems/rotate-list/)In-place/ Medium
 - [ ] [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)In-place rev/Medium
 - [ ] [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)In-place rev/Medium
-- [ ] [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)In-place reversal of a linked list/Hard
+- [ ] [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
 ### Heap, PriorityQueue
 
@@ -252,9 +250,10 @@ practice.
 - [x] [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)
 - [x] [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)
 - [x] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
+- [x] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
+- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
-- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [ ] [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 - [ ] [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
