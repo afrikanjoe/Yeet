@@ -252,7 +252,7 @@ practice.
 - [x] [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 - [x] [Subarrays with Product Less than K](https://leetcode.com/problems/subarray-product-less-than-k/)
 - [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
+- [x] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [ ] [Minimum Number of K Consecutive Bit Flips](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/)
 - [ ] [Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/)
