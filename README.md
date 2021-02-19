@@ -190,16 +190,16 @@ practice.
 
 [Discussion tips](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
 
-- [ ] Paint Fence
+- [ ] [Paint Fence](https://leetcode.com/problems/paint-fence/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [ ] Unique Paths II
+- [ ] [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] Best Time to Buy and Sell Stock II
-- [ ] Coin Change
+- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [ ] Longest Common Subsequence
+- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/))
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
@@ -242,8 +242,8 @@ practice.
 ### Recursion
 
 - [x] [Pow(x, n)](https://leetcode.com/problems/powx-n/)
-- [ ] K-th Symbol in Grammar
-- [ ] Split BST Medium
+- [ ] [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
+- [ ] [Split BST Medium](https://leetcode.com/problems/split-bst/)
 
 ### Sliding Window
 
