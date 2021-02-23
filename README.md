@@ -20,9 +20,9 @@ practice.
 - [x] [Sort Colours](https://leetcode.com/problems/sort-colors/)
 - [x] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [x] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
-- [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 
 ### Two Pointers
 
