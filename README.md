@@ -18,11 +18,11 @@ practice.
 - [x] [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)
 - [x] [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare)
 - [x] [Sort Colours](https://leetcode.com/problems/sort-colors/)
-- [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+- [x] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
+- [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
 - [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 - [ ] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
-- [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 
 ### Two Pointers
 
@@ -194,7 +194,7 @@ practice.
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+- [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
 - [ ] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 - [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
