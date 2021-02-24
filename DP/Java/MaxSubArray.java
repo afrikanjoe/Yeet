@@ -3,6 +3,8 @@
 
 https://leetcode.com/problems/maximum-subarray/
 
+Kadane's algorithm
+
 */
 
 

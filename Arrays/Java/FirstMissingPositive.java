@@ -69,7 +69,7 @@ public class FirstMissingPositive {
             }
         }
 
-        // find first non negative cell
+        // find FIRST non negative cell
         for (int i = 0; i < n; i++) {
             if (nums[i] >= 0) {
                 return i + 1;
