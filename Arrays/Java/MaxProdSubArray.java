@@ -72,7 +72,7 @@ public class MaxProdSubArray {
 
         for (int i = 1; i < nums.length; i++) {
 
-            // subproblem: use previoud max/min * num[i] or restart from i.
+            // subproblem: use previous max/min * num[i] or restart from i.
             // the absolute value of the min could be larger so it should be stored in// in
             // case the
             // next value is negative.
