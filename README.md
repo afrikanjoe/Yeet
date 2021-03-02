@@ -22,7 +22,7 @@ practice.
 - [x] [3Sum](https://leetcode.com/problems/3sum/)
 - [x] [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
+- [x] [3 Sum Closest](https://leetcode.com/problems/3sum-closest/)
 
 ### Two Pointers
 
@@ -34,7 +34,6 @@ practice.
 - [ ] [Sort List](https://leetcode.com/problems/sort-list/)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
 - [ ] [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)
-
 
 ### String
 
