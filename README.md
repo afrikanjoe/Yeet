@@ -47,9 +47,9 @@ practice.
 
 ### Interval
 
+- [x] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
 - [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
 - [ ] [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)
@@ -263,7 +263,7 @@ practice.
 
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - [ ] [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
-- [ ] [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+- [x] [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 - [ ] [Subsets](https://leetcode.com/problems/subsets/)
 - [ ] [Subsets II](https://leetcode.com/problems/subsets-ii/)
 - [ ] [Permutations](https://leetcode.com/problems/permutations/)
