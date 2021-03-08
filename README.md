@@ -261,9 +261,9 @@ practice.
 
 ### Greedy + Backtracking
 
+- [x] [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
 - [ ] [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)
-- [x] [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
 - [ ] [Subsets](https://leetcode.com/problems/subsets/)
 - [ ] [Subsets II](https://leetcode.com/problems/subsets-ii/)
 - [ ] [Permutations](https://leetcode.com/problems/permutations/)
@@ -282,6 +282,7 @@ practice.
 ### Others
 
 - [ ] Move Zeroes
+- [x] [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/)
 - [ ] Is Subsequence
 - [ ] Next Permutation
 - [ ] String to Integer (atoi)
