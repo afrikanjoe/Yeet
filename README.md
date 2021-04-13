@@ -107,7 +107,6 @@ practice.
 - [ ] Max Area of Island
 - [ ] Number of Connected Components in an Undirected Graph
 - [ ] Word Ladder
-- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
@@ -192,6 +191,7 @@ practice.
 
 - [ ] [Paint Fence](https://leetcode.com/problems/paint-fence/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+- [x] [Integer Break](https://leetcode.com/problems/integer-break/submissions/)
 - [ ] [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
 - [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 - [x] [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
