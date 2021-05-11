@@ -38,6 +38,7 @@ practice.
 ### String
 
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [x] [Substring with one distinct letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)
 - [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
 - [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
@@ -287,6 +288,12 @@ practice.
 - [ ] Next Permutation
 - [ ] String to Integer (atoi)
 - [ ] ZigZag Conversion
+- [x] Number of steps between fibonnacci numbers
+- [x] Find closest Fibonnaci number
+- [x] Find index of fibonnacci number
+- [x] 1127 HexSpeak
+- [x] 1196 How many Apples can you put in a basket
+- [x] Sum of primes multple of 5 and 4
 
 ### Binary
 
