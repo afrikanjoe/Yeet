@@ -294,6 +294,7 @@ practice.
 - [x] 1127 HexSpeak
 - [x] 1196 How many Apples can you put in a basket
 - [x] Sum of primes multple of 5 and 4
+- [x] [fibonacci number](https://leetcode.com/problems/fibonacci-number)
 
 ### Binary
 
