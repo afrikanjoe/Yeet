@@ -6,6 +6,14 @@ A board that redirects the ball to the right spans the top-left corner to the bo
 A board that redirects the ball to the left spans the top-right corner to the bottom-left corner and is represented in the grid as -1.
 We drop one ball at the top of each column of the box. Each ball can get stuck in the box or fall out of the bottom. A ball gets stuck 
 if it hits a "V" shaped pattern between two boards or if a board redirects the ball into either wall of the box.
+
+
+  1  1  1  -1 -1 
+  1  1  1  -1 -1 
+ -1 -1 -1   1  1
+  1  1  1   1 -1
+ -1 -1 -1  -1 -1
+ 
 """
 
 class Solution:
