@@ -8,7 +8,7 @@ digits, and/or spaces. Each file name is of the form name.extension, where name 
 """
 
 class Solution:
-    def lengthLongestPath(self, path_input):
+    def lengthLongestPathPat(self, path_input):
         paths= []
         prev = []
         
@@ -57,6 +57,42 @@ class Solution:
                 max_len = max(len(pth),max_len)
         return max_len
 
+    def lengthLongestPath(self, input):
+        lines = input.split('\n')
+        
+        path_elements = [] # [{tab_count, element}, ...] only contains a single path
+        """
+        assumptions:
+        - root can be dir or file
+        - no trailing ws 
+        - all paths are valid, no invalid path like file.txt/invalid_path
+        - here we call the / delimited parts in the path, elements. file and dir are elements.
+        """
+        
+        max_path_len = 0
+        
+        
+        for line in lines:
+            # Compute tab count and actual element name
+            tab_count = line.count('\t')
+            element = line.replace('\t', '')
+            
+			# pop out the last element, of which the current element is not a sub-element
+            while len(path_elements) and path_elements[-1]['tab_count'] >= tab_count:
+                path_elements.pop()
+            path_elements.append({
+                'tab_count': tab_count,
+                'element': element
+            })
+           
+            if '.' in element:
+                # element is a file
+                curr_path_len = len('/'.join([e['element'] for e in path_elements]))
+                max_path_len = max(max_path_len, curr_path_len)
+            
+            
+        return max_path_len
+
         
 
 if __name__ == "__main__":
@@ -68,9 +104,9 @@ if __name__ == "__main__":
     inp6 = "a\n\taa\n\t\taaa\n\t\t\tfile1234567890123.txt\naaaaaaaaaaaaaaaaaaaaa\n\tsth.png"
     inp7 = "rzzmf\nv\n\tix\n\t\tiklav\n\t\t\ttqse\n\t\t\t\ttppzf\n\t\t\t\t\tzav\n\t\t\t\t\t\tkktei\n\t\t\t\t\t\t\thhmav\n\t\t\t\t\t\t\t\tbzvwf.txt"
     print(Solution().lengthLongestPath(inp))
-    print(Solution().lengthLongestPath(inp2))
-    print(Solution().lengthLongestPath(inp3))
-    print(Solution().lengthLongestPath(inp4))
-    print(Solution().lengthLongestPath(inp5))
-    print(Solution().lengthLongestPath(inp6))
-    print(Solution().lengthLongestPath(inp7))
+    # print(Solution().lengthLongestPath(inp2))
+    # print(Solution().lengthLongestPath(inp3))
+    # print(Solution().lengthLongestPath(inp4))
+    # print(Solution().lengthLongestPath(inp5))
+    # print(Solution().lengthLongestPath(inp6))
+    # print(Solution().lengthLongestPath(inp7))
