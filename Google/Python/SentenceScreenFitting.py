@@ -38,7 +38,6 @@ class Solution:
                     grid[i][j] = '-'
                 i+=1
                 j=0
-            #print(grid)
         return word_counter // len(sentence)
 
 if __name__ == "__main__":
