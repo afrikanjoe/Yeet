@@ -59,6 +59,12 @@ class Solution:
         return shortestPath
 
 
+        """
+        One way to improve this solution is to only explore paths that have less than the required number of obstacles. 
+        This prevents you from having to explore paths
+        """
+
+
 
 if __name__ == "__main__":
     grid = [[0,1,1],[1,1,1],[1,0,0]] 
