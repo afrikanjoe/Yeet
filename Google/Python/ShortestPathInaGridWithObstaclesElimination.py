@@ -64,6 +64,27 @@ class Solution:
         This prevents you from having to explore paths
         """
 
+        def shortestPath(self, grid: List[List[int]], k: int) -> int:
+            M,N=len(grid),len(grid[0])
+
+            steps=0
+            q,seen=[(0,0,0)],set()
+            while q:
+                for _ in range(len(q)):
+                    r,c,used=q.pop(0)
+                    if (r,c)==(M-1,N-1):
+                        return steps
+                    for x,y in [(r-1,c),(r,c-1),(r,c+1),(r+1,c)]:
+                        if 0<=x<M and 0<=y<N and (x,y,used) not in seen:
+                            if grid[x][y]==0:
+                                q.append((x,y,used))
+                                seen.add((x,y,used))
+                            elif grid[x][y]==1 and used<k:
+                                seen.add((x,y,used))
+                                q.append((x,y,used+1))
+                steps+=1
+            return -1
+
 
 
 if __name__ == "__main__":
