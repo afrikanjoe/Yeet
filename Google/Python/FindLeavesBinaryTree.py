@@ -60,3 +60,16 @@ class Solution:
             return_list.append(curr_leaves_val)
             leaves = curr_leaves[:]
         return return_list
+
+
+    # Optimal Solution 
+    def findLeaves(self, root: TreeNode) -> List[List[int]]:
+        dct = collections.defaultdict(list)
+        def dfs(node):
+            if not node: 
+                return 0
+            depth = max(dfs(node.left), dfs(node.right))
+            dct[depth].append(node.val)
+            return depth + 1
+        dfs(root)
+        return dct.values()
