@@ -35,20 +35,10 @@ class Solution:
                 else:
                     arr[i][j] = arr[i-1][j]
 
-
-
-
         for i in arr:
             print(i)
 
         return arr[-1][-1]
-
-
-        
-        
-
-
-        
 
 
 if __name__=="__main__":
