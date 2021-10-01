@@ -35,10 +35,29 @@ class Solution:
                 else:
                     arr[i][j] = arr[i-1][j]
 
-        for i in arr:
-            print(i)
+        # for i in arr:
+        #     print(i)
+        
+        selected_items=self.get_items(arr,values,weights)
+        
 
         return arr[-1][-1]
+
+    def get_items(self,arr,values,weights):
+        m = len(arr)
+        n = len(arr[0])-1
+        selected_items = []
+        for i in range(m-1,0,-1):
+            if(arr[i-1][n]==arr[i][n]):
+                continue
+            else:
+                selected_items.insert(0,i-1)
+                n = n - weights[i-1]
+
+
+        weight = sum([weights[i] for i in selected_items])
+        print("selected items:",selected_items,"weight:",weight, "value:",arr[-1][-1])
+        return selected_items
 
 
 if __name__=="__main__":
