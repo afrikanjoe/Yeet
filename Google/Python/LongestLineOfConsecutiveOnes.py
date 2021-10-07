@@ -121,7 +121,7 @@ class Solution:
                     if((i2-1,j2-1) not in item_list):
                         item_list.append((i2-1,j2-1))
                         queue.append(item_list)
-        elif(i<i2 and j<j2):  # top right
+        elif(i>i2 and j<j2):  # top right
             if(i2-1>=0 and j2+1<n): 
                 if(mat[i2-1][j2+1]):
                     item_list  = item[:]
@@ -148,6 +148,19 @@ if __name__== "__main__":
     print(Solution().longestLine(mat))
 
     mat = [[1,1,1,1],[0,1,1,0],[0,0,0,1]]
+    print(Solution().longestLine(mat))
+
+    mat = [
+    [1,1,0,0,1,0,0,1,1,0],
+    [1,0,0,1,0,1,1,1,1,1],
+    [1,1,1,0,0,1,1,1,1,0],
+    [0,1,1,1,0,1,1,1,1,1],
+    [0,0,1,1,1,1,1,1,1,0],
+    [1,1,1,1,1,1,0,1,1,1],
+    [0,1,1,1,1,1,1,0,0,1],
+    [1,1,1,1,1,0,0,1,1,1],
+    [0,1,0,1,1,0,1,1,1,1],
+    [1,1,1,0,1,0,1,1,1,1]]
     print(Solution().longestLine(mat))
 
                 
