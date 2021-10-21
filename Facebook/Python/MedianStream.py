@@ -2,6 +2,15 @@ import heapq
 # Add any extra import statements you may need here
 
 
+"""
+heapq methods 
+
+heapq.nlargest return a list with the n largest elements
+heapq.nsmallest return a list with n smallest elements
+
+A heap or binary heap has O(log n) push, O(log n) pop 
+"""
+
 # Add any helper functions you may need here
 
 # O(N^2 Log N)
@@ -28,7 +37,7 @@ def findMedianBF(arr):
   return median_list
 
 
-def findMedian(arr):
+def findMedianTwoHeaps(arr):
   output = []
   minq = []
   maxq = []
@@ -47,30 +56,25 @@ def findMedian(arr):
     
     
   return output
+
+
+def findMedian(arr):
+
+  output = []
+  for i in range(1,len(arr)+1):
+
+    # get the smallest elements from the subarray arr[0:i] this takes log(n) time 
+    temp = heapq.nsmallest(i,arr[0:i])
+    mid = (0 + len(temp)-1) >> 1
+    if(len(temp)%2==0):
+      mid1 = mid+1 
+      val = (temp[mid] + temp[mid1]) >> 1
+      output.append(val)
+    else:
+      output.append(temp[mid])
+  return output
+
   
-
-
-
-
-def median_stream(a) -> list:
-    res = []
-    from queue import PriorityQueue
-    mins = PriorityQueue()                  # larger element
-    maxs = PriorityQueue()                  # smaller elements
-    for i in range(len(a)):
-        maxs.put(-a[i])
-        x = -maxs.get()
-        mins.put(x)
-        if maxs.qsize() < mins.qsize():
-            x = mins.get()
-            maxs.put(x)
-        
-        if maxs.qsize() > mins.qsize():
-            res.append(-maxs.get())
-        else:
-            res.append( int((-maxs.queue[0] + mins.queue[0])/2 + 0.499999) )
-    return res
-
 
 
 # These are the tests we use to determine if the solution is correct.
