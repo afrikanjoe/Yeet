@@ -1,9 +1,4 @@
 import math
-# Add any extra import statements you may need here
-
-
-# Add any helper functions you may need here
-
 
 # O(n log n)
 def are_they_equal_simple(array_a, array_b):
@@ -29,14 +24,6 @@ def are_they_equal(array_a,array_b):
             if(item1!=item2):
                 return False
     return True
-
-
-
-
-
-
-
-
 
 
 # These are the tests we use to determine if the solution is correct.
