@@ -53,14 +53,14 @@ if __name__ == "__main__":
     k = 3
     print(Solution().maxScore(cardPoints,k))
     cardPoints = [2,2,2]
-    # k = 2
-    # print(Solution().maxScore(cardPoints,k))
-    # cardPoints = [9,7,7,9,7,7,9]
-    # k = 7
-    # print(Solution().maxScore(cardPoints,k))
-    # cardPoints = [1,1000,1]
-    # k = 1
-    # print(Solution().maxScore(cardPoints,k))
-    # cardPoints = [1,79,80,1,1,1,200,1]
-    # k = 3
-    # print(Solution().maxScore(cardPoints,k))
+    k = 2
+    print(Solution().maxScore(cardPoints,k))
+    cardPoints = [9,7,7,9,7,7,9]
+    k = 7
+    print(Solution().maxScore(cardPoints,k))
+    cardPoints = [1,1000,1]
+    k = 1
+    print(Solution().maxScore(cardPoints,k))
+    cardPoints = [1,79,80,1,1,1,200,1]
+    k = 3
+    print(Solution().maxScore(cardPoints,k))
