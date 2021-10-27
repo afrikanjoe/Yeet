@@ -11,7 +11,7 @@ Given the integer array cardPoints and the integer k, return the maximum score y
 
 
 class Solution:
-    def maxScore(self, cardPoints, k):
+    def maxScoreSlow(self, cardPoints, k):
         
         # case where we have to take all the cards
         if(k>len(cardPoints)):
@@ -29,6 +29,23 @@ class Solution:
                 curr_sum+=sum(cardPoints[0:runover])
             max_score = max(curr_sum,max_score)
         return max_score
+
+    def maxScore(self, cardPoints, k):
+            """
+            :type cardPoints: List[int]
+            :type k: int
+            :rtype: int
+            """
+
+            ans = sum(cardPoints[:k])
+            cur = ans
+
+            for i in range(1, k+1):
+                deduct = cardPoints[k-i]
+                increm = cardPoints[-i]
+                cur = cur + increm - deduct
+                ans = max(ans, cur)
+            return ans
     
 
 if __name__ == "__main__":
@@ -36,14 +53,14 @@ if __name__ == "__main__":
     k = 3
     print(Solution().maxScore(cardPoints,k))
     cardPoints = [2,2,2]
-    k = 2
-    print(Solution().maxScore(cardPoints,k))
-    cardPoints = [9,7,7,9,7,7,9]
-    k = 7
-    print(Solution().maxScore(cardPoints,k))
-    cardPoints = [1,1000,1]
-    k = 1
-    print(Solution().maxScore(cardPoints,k))
-    cardPoints = [1,79,80,1,1,1,200,1]
-    k = 3
-    print(Solution().maxScore(cardPoints,k))
+    # k = 2
+    # print(Solution().maxScore(cardPoints,k))
+    # cardPoints = [9,7,7,9,7,7,9]
+    # k = 7
+    # print(Solution().maxScore(cardPoints,k))
+    # cardPoints = [1,1000,1]
+    # k = 1
+    # print(Solution().maxScore(cardPoints,k))
+    # cardPoints = [1,79,80,1,1,1,200,1]
+    # k = 3
+    # print(Solution().maxScore(cardPoints,k))
