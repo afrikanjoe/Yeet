@@ -1,5 +1,5 @@
 class Solution:
-    def getCollisionTimes(self, cars):
+    def getCollisionTimesPat(self, cars):
         res = []
         
         for i in range(len(cars)-1):
@@ -23,6 +23,37 @@ class Solution:
                     res[i]= ((car2[0]-car1[0])/(car1[1]-car2[1]))
         res.append(-1)
         return res
+
+
+    def getCollisionTimes(self,cars):
+        stack = []
+        res = [-1]*len(cars)
+
+        for i in range(len(cars)-1, -1, -1):
+            
+            ccP, ccS = cars[i]
+            
+            while stack:
+                
+                top = cars[stack[-1]]
+                
+                
+                if top[1] >= ccS or (top[0] - ccP) / (ccS-top[1]) >= res[stack[-1]] > 0:
+                    stack.pop()
+                else:
+                    break
+                    
+            
+            if stack:
+                top = cars[stack[-1]]
+                collisonT = (top[0] - ccP) / (ccS-top[1])
+                res[i] = collisonT
+            
+            stack.append(i)
+        
+        return res
+
+
 
 
 if __name__ == "__main__":
