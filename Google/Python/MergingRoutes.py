@@ -65,18 +65,6 @@ class Solution:
         return paths
                 
 
-            
-
-
-        
-
-        
-
-
-
-
-
-
 if __name__ == "__main__":
     inp = ["ABC", "MBCN", "QBCD", "KL", "DKX","ECN"]
     print(Solution().merge_routes(inp))
