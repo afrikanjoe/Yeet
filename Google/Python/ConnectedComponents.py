@@ -33,6 +33,7 @@ class Solution:
                 
         return len(paths)
             
+            
         
     
     def bfs(self,node,adj_list):

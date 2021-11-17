@@ -3,6 +3,9 @@ I learned that if you want to detect a cycle in a graph you have to do a topolog
 Sheesh this was a hard problem
 https://algocoding.wordpress.com/2015/04/05/topological-sorting-python/
 
+When you get to a node that is in a cycle you won't add it to the stack because it's in degree will be greater
+Than 1
+
 """
 
 
@@ -18,7 +21,6 @@ class Solution:
         adj_list = {}
         # count the in degrees
         for preq in prerequisites:
-            
             val = adj_list.get(preq[1],0)
             if(val==0):
                 adj_list[preq[1]] = [preq[0]]
@@ -47,6 +49,8 @@ class Solution:
                     in_degree[n] = in_degree[n] -1
                     if(in_degree[n]==0):
                         queue.append(n)
+
+        print()
         return len(top_sort)==numCourses
         
       
