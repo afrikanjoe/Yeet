@@ -62,6 +62,35 @@ class Solution:
                 min_val = min(len(i)-1,min_val)
             return min_val
 
+
+    # Incredible Implementation 
+    def getFood(self, grid):
+        
+        def findMe(grid):
+            for i in range(len(grid)):
+                for j in range(len(grid[0])):
+                    if grid[i][j] == '*':
+                        return (i,j,0)
+        
+        dirs = ((1, 0), (-1, 0), (0, 1), (0, -1))
+        me = findMe(grid)
+        queue = collections.deque()
+        queue.append(me)
+        
+        while queue:
+            x, y, val = queue.popleft()
+
+            for dx,dy in dirs:
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < len(grid) and 0 <= ny < len(grid[0]):
+                    if grid[nx][ny] == '#':
+                        return val+1
+                    elif grid[nx][ny] == 'O':
+                        grid[nx][ny] = 'X' 
+                        queue.append((nx, ny, val+1))
+        
+        return -1
+
 if __name__ == "__main__":
     grid = [["X","X","X","X","X","X","X","X"],["X","*","O","X","O","#","O","X"],
     ["X","O","O","X","O","O","X","X"],["X","O","O","O","O","#","O","X"],["X","X","X","X","X","X","X","X"]]
