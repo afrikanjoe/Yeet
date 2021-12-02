@@ -45,7 +45,34 @@ class Solution:
                 depth-=int(val)
         return horizontal * depth 
 
+
+    # part two
+    def compute_position_two(self,file):
+        arr = file.split("\n")
+        horizontal = 0 
+        depth = 0
+        aim = 0 
+        for command in arr:
+            row = command.split(" ")
+            if(len(row)==1):
+                continue
+            comm, val = row
+            if(comm=="forward"):
+                horizontal+=int(val)
+                depth+= (aim*int(val))
+            elif(comm=="down"):
+                #depth+=int(val)
+                aim+=int(val)
+            elif(comm=="up"):
+                #depth-=int(val)
+                aim-=int(val)
+        return horizontal * depth 
+
 if __name__ == "__main__":
     with open("Day2.txt") as f:
         content = f.read()
         print(Solution().compute_position(content))
+
+    with open("Day2.txt") as f:
+        content = f.read()
+        print(Solution().compute_position_two(content))
