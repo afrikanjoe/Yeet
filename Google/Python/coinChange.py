@@ -35,6 +35,26 @@ class Solution:
                     return -1
         
         return coinChangeHelper(tuple(coins),amount,0)
+
+
+        def coinChange(self, coins: List[int], amount: int) -> int:
+        
+            @lru_cache(maxsize=None)
+            def coinChangeHelper(coins,amount):
+                if(amount==0):
+                    return 0
+                else:
+                    min_coins = 2**32
+                    for i in coins: 
+                        if(amount-i>=0):
+                            num_coins = coinChangeHelper(coins,amount-i)+1
+                            min_coins = min(num_coins,min_coins)
+                return min_coins
+            
+            ans = coinChangeHelper(tuple(coins),amount)
+            if(ans>amount):
+                return -1
+            return ans
         
 if __name__ == "__main__":
     coins = [1,2,5]
