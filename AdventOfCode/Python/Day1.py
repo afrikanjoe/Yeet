@@ -28,10 +28,10 @@ class Solution:
 
 
 if __name__ == "__main__":
-    with open("Day1.txt") as f:
+    with open("inputs/Day1.txt") as f:
         content = f.read()
         print(Solution().count_differences(content))
 
-    with open("Day1.txt") as f:
+    with open("inputs/Day1.txt") as f:
         content = f.read()
         print(Solution().count_differences_part_two(content))

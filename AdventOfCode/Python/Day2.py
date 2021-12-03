@@ -69,10 +69,10 @@ class Solution:
         return horizontal * depth 
 
 if __name__ == "__main__":
-    with open("Day2.txt") as f:
+    with open("inputs/Day2.txt") as f:
         content = f.read()
         print(Solution().compute_position(content))
 
-    with open("Day2.txt") as f:
+    with open("inputs/Day2.txt") as f:
         content = f.read()
         print(Solution().compute_position_two(content))

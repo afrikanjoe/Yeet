@@ -141,6 +141,6 @@ class Solution:
 
 
 if __name__ == "__main__":
-    with open("Day3.txt") as f:
+    with open("inputs/Day3.txt") as f:
         content = f.read()
         print(Solution().binary_diagnostic(content))
