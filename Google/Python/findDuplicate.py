@@ -38,7 +38,7 @@ class Solution:
             hare = nums[nums[hare]]
             if(hare == tortoise):
                 break 
-        
+            
         # Phase II
         tortoise = nums[0]
         while tortoise!=hare:

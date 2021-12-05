@@ -46,48 +46,44 @@ class Solution:
             line_count+=1
         
 
-
+        winners = []
+        win_vals = []
         for number in self.bingo_nums:
             for i in range(len(self.bingo_boards)):
                 tup = self.bingo_boards[i]
                 ans, new_mask, val  = self.update_board(tup[0],tup[1],number)
                 if(ans):
-                    #print(val)
-                    exit()
+                    if(i not in winners):
+                        winners.append(i)
+                        win_vals.append(val)
                 new_tup = [tup[0],new_mask]
                 self.bingo_boards[i] = new_tup
-                #print(new_mask)
-
-        # print(self.bingo_boards[0][0],self.bingo_boards[0][1])
-        # self.validate_row(self.bingo_boards[0][0],self.bingo_boards[0][1])
+        print(winners,win_vals)
 
 
-    def update_board(self,board,mask,val):
-        val = np.where(board==val)
+    def update_board(self,board,mask,value):
+        val = np.where(board==value)
         mask[val] = 1
         ans, row = self.validate_row(board,mask)
         if(ans):
-            return True, mask, row*val 
+            return True, mask, row*value 
             #print("Answer Found:",row * val)
         return False, mask, 0 
         
     def validate_row(self,board,mask):
         for i in range(5):
             if(mask[i,:].sum(axis=0)==5):
-                
-                print(board[np.where(mask>0)].flatten().sum())
-                return True, board[i,:].sum(axis=0)
+                return True, board[np.where(mask<1)].flatten().sum()
         for i in range(5):
             if(mask[:,i].sum(axis=0)==5):
-                print(board[mask])
-                return True, board[:,i].sum(axis=0)
+                return True, board[np.where(mask<1)].flatten().sum()
         return False, 0 
         
 
 
 if __name__ == "__main__":
-    with open("inputs/Day41.txt") as f:
+    with open("inputs/Day4.txt") as f:
         count = len(f.read().split("\n"))
         print(count)
-    with open("inputs/Day41.txt") as f:
+    with open("inputs/Day4.txt") as f:
         s = Solution().read_input(f,count)
