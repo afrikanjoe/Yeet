@@ -46,20 +46,19 @@ class Solution:
             line_count+=1
         
 
-
+        winners = []
+        win_vals = []
         for number in self.bingo_nums:
             for i in range(len(self.bingo_boards)):
                 tup = self.bingo_boards[i]
                 ans, new_mask, val  = self.update_board(tup[0],tup[1],number)
                 if(ans):
-                    print(val)
-                    exit()
+                    if(i not in winners):
+                        winners.append(i)
+                        win_vals.append(val)
                 new_tup = [tup[0],new_mask]
                 self.bingo_boards[i] = new_tup
-                #print(new_mask)
-
-        # print(self.bingo_boards[0][0],self.bingo_boards[0][1])
-        # self.validate_row(self.bingo_boards[0][0],self.bingo_boards[0][1])
+        print(winners,win_vals)
 
 
     def update_board(self,board,mask,value):
