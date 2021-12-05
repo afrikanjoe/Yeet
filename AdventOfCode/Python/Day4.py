@@ -75,7 +75,7 @@ class Solution:
         for i in range(5):
             if(mask[i,:].sum(axis=0)==5):
                 
-                print(board[np.where(mask>0)].sum())
+                print(board[np.where(mask>0)].flatten().sum())
                 return True, board[i,:].sum(axis=0)
         for i in range(5):
             if(mask[:,i].sum(axis=0)==5):
