@@ -42,14 +42,19 @@ class Solution:
             count+=1
         
 
-    def attempt3(self,inp):
+    def lanternFish(self,inp):
+
+        # We really only need to track the frequency of each fish counter
         count_dict = {}
         for i in range(0,9):
             count_dict[i] = 0
 
+        # Initialize Dictionary with initial configuration
         for i in inp:
             count_dict[i] = count_dict.get(i,0)+1
         
+
+        # simulate generating new fish
         count = 0 
         while count<256:
             new_dict = dict(count_dict)
@@ -62,24 +67,14 @@ class Solution:
             new_dict[0] = count_dict[1]
             count+=1
             count_dict = new_dict
-        print(count_dict,sum(count_dict.values()))
+
+        return sum(count_dict.values())
 
         
-
-
-        
-
-
-    
-
-
-
-
-
 if __name__ == "__main__":
     inp = [3,4,3,1,2]
-    Solution().attempt3(inp)
+    Solution().lanternFish(inp)
     with open("inputs/Day6.txt") as f:
         line = f.readline().replace("\n","").split(",")
         line = [int(i) for i in line]
-        Solution().attempt3(line)
+        Solution().lanternFish(line)
