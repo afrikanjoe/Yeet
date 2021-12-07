@@ -73,8 +73,8 @@ class Solution:
         
 if __name__ == "__main__":
     inp = [3,4,3,1,2]
-    Solution().lanternFish(inp)
+    print(Solution().lanternFish(inp))
     with open("inputs/Day6.txt") as f:
         line = f.readline().replace("\n","").split(",")
         line = [int(i) for i in line]
-        Solution().lanternFish(line)
+        print(Solution().lanternFish(line))
