@@ -30,6 +30,23 @@ class Solution:
                                 sols.append(triple)
         return sols
 
+    ### Three Sum Optimal 
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        res, dups = set(), set()
+        # seen is a dictionary
+        seen = {}
+        
+        # This prevents use from repeating triplets
+        for i, val1 in enumerate(nums):
+            if val1 not in dups:
+                dups.add(val1)
+                for j, val2 in enumerate(nums[i+1:]):
+                    complement = -(val1 + val2)
+                    if complement in seen and seen[complement] == i:
+                        res.add(tuple(sorted((val1, val2, complement))))
+                    seen[val2] = i
+        return res
+
 
 if __name__ == "__main__":
     nums = [-1,0,1,2,-1,-4]
