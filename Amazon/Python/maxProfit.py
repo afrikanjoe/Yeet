@@ -13,7 +13,7 @@ Return the maximum total value that you can attain after selling orders colored 
 """
 
 class Solution:
-    def maxProfit(self, inventory, orders):
+    def maxProfitBF(self, inventory, orders):
         
         heap  = []
         for i in inventory:
@@ -29,10 +29,8 @@ class Solution:
         mod = (10**9)+7
         return ans%mod
 
-    import heapq 
 
-class Solution:
-    def maxProfit(self, inventory: List[int], orders: int) -> int:
+    def maxProfit(self, inventory, orders):
         inventory.sort(reverse = True)        
         i=colors=1
         cur_value=inventory[0]
@@ -54,4 +52,7 @@ class Solution:
 if __name__ == "__main__":
     inventory = [2,8,4,10,6]
     orders = 20
+    print(Solution().maxProfit(inventory,orders))
+    inventory = [773160767]
+    orders = 252264991
     print(Solution().maxProfit(inventory,orders))
