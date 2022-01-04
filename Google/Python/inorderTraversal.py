@@ -15,6 +15,4 @@ class Solution:
                 self.inorderTraversal(root.right)
         helper(root)
         return self.itrav
-
-if __name__ == "__main__":
     
