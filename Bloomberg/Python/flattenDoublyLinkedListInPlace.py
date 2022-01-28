@@ -35,7 +35,6 @@ class Solution:
                 
                 head_tmp.child = None
                 
-                #print(head_tmp.val,head_tmp.next.val,head_tmp.next.prev.val)
                 
                 if(tmp):
                     last_node.next = tmp
@@ -48,10 +47,7 @@ class Solution:
         if(head):
             _ = flatten_helper(head)
         
-#         while head:
-#             if(head.prev):
-#                 print(head.val,head.prev.val)
-#             head = head.next
+
         
         return head
             
